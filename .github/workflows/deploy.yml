@@ -22,11 +22,7 @@ jobs:
       - name: Install dependencies
         run: npm install
       - name: Install linter
-        run: npm install \
-          eslint --save-dev \
-          eslint-plugin-import --save-dev \
-          eslint-plugin-promise --save-dev \
-          eslint-plugin-standard --save-dev \
+        run: npm install eslint eslint-plugin-import eslint-plugin-promise eslint-plugin-standard eslint-plugin-svelte --save-dev 
       - name: Lint
         run: npm run lint
       - name: Check
