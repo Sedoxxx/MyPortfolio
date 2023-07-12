@@ -1,0 +1,42 @@
+.skills {
+    width: 50%;
+    margin: 100px auto 100px auto;
+}
+.skill-tab {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    row-gap: 10px;
+    margin-top: 70px;
+    font-family: 'Montserrat', sans-serif;
+}
+.skill-table{
+    border: none;
+    font-size: 16px;
+}
+.code-skills-img{
+    width: 25%;
+    float: left;
+    margin: auto 30px auto auto;
+}
+@media (320px <= width <= 768px){
+    .skills{
+        width: 70%;
+        display: flex;
+        flex-flow: column wrap;
+    }
+   .skill-tab {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr ;
+    row-gap: 10px;
+    margin-top: 70px;
+    font-family: 'Montserrat', sans-serif;
+    }
+    .code-skills-img {
+        align-content: center;
+        margin: 50px auto 50px auto;
+        float: none;
+        width: 50%;
+    }
+}

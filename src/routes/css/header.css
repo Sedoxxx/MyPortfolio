@@ -1,0 +1,59 @@
+
+header {
+    background-color: #EAF6F6;
+    display:block;
+    padding: 0;
+    height: 100vh;
+}
+.top-container-items{
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 3fr 1fr;
+}
+.flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
+.top-cloud{
+    padding: 100px auto;
+    margin-left: 30vw;
+
+    /*margin-left: 30vw;*/
+}
+.bottom-cloud{  
+    padding: 100px auto;
+    margin-right: 30vw;  
+}
+#hi-aymen{
+    margin: 20px auto;
+}
+#cs-student{
+
+}
+.mountain{
+}
+@media (320px <= width <= 768px){
+    header {
+        background-color: #EAF6F6;
+        display:block;
+        height: 100vh;
+        padding-top: auto;
+        padding-bottom: auto;
+    }
+    #hi-aymen{
+        font-size: 20vw;
+        position: relative;
+        top: 20%;
+    }
+    #cs-student{
+        font-size: 7vw;
+        position: relative;
+        top: 20%;
+    }
+    .mountain{
+        width: 100vw;
+    }
+}

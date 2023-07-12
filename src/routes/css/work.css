@@ -1,0 +1,46 @@
+
+.work-experience{
+    font-family: 'Montserrat', sans-serif;
+    width: 50%;
+    margin: 0px auto 200px auto;
+}
+.work-companies{
+    color: black;
+    text-decoration-line: none;
+    font-weight: 600;
+}
+
+.portfolio-bag-img{
+    width: 12vw;
+    float: left;
+    margin-right: auto;
+}
+.work-table th, td {
+    padding: 5px 15px 5px 15px;
+    margin-left: 30px;
+}
+@media (320px <= width <= 768px){
+    .work-experience{
+        font-family: 'Montserrat', sans-serif;
+        display: flex;
+        flex-flow: column wrap;
+        align-content: center;
+        width: 70%;
+        margin: 0px auto 200px auto;
+    }
+    .work-companies{
+        color: black;
+        text-decoration-line: none;
+        font-weight: 600;
+    }
+    
+    .portfolio-bag-img{
+        width: 25vw; 
+        float: none;
+        margin: 50px auto 50px auto;
+    }
+    .work-table th, td {
+        padding: 5px 15px 5px 15px;
+        margin-left: 30px;
+    }
+}
