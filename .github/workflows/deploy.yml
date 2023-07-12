@@ -21,6 +21,8 @@ jobs:
           node-version: '16'
       - name: Install dependencies
         run: npm install
+      - name: Install linter
+        run: npm install --save-dev eslint eslint-plugin-svelte3 svelte3
       - name: Lint
         run: npm run lint
       - name: Check
