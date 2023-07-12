@@ -22,7 +22,7 @@ jobs:
       - name: Install dependencies
         run: npm install
       - name: Install linter
-        run: npm install --save-dev eslint eslint-plugin-svelte3 svelte3
+        run: npm install --save-dev eslint eslint-plugin-svelte svelte
       - name: Lint
         run: npm run lint
       - name: Check
