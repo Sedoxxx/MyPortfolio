@@ -21,6 +21,8 @@ jobs:
           node-version: '16'
       - name: Install dependencies
         run: npm install --force
+      - name: Install moment
+        run: npm install moment --save
       - name: Install linter
         run: npm install eslint eslint-plugin-import eslint-plugin-promise eslint-plugin-standard eslint-plugin-svelte3 --save-dev --force
       - name: Lint
