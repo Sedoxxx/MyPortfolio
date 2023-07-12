@@ -27,7 +27,6 @@ jobs:
           eslint-plugin-import --save-dev \
           eslint-plugin-promise --save-dev \
           eslint-plugin-standard --save-dev \
-          eslint-plugin-svelte@2 --save-dev \
       - name: Lint
         run: npm run lint
       - name: Check
