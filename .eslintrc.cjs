@@ -28,6 +28,11 @@ module.exports = {
     'svelte3/typescript': require('typescript'),
     'svelte3/ignore-styles': () => true
   },
+  rules: {
+    "typescript-eslint/no-unsafe-assignment": "off",
+    "@typescript-eslint/no-unsafe-member-access": "off",
+    "@typescript-eslint/no-unsafe-call": "off"
+  },
   plugins: ['svelte3', '@typescript-eslint'],
-  ignorePatterns: ['node_modules','svelte.config.js']
+  ignorePatterns: ['node_modules','svelte.config.js',]
 }

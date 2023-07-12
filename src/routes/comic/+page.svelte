@@ -49,7 +49,7 @@
       comicDate = comicDateObj.toLocaleDateString(undefined, options)
 
       const moment = await import('moment')
-      const fromNow = moment.default(comicDateObj).fromNow()
+      const fromNow  = moment.default(comicDateObj).fromNow()
       comicFromNow = `Comic released ${fromNow}`
     } catch (error) {
       console.log(error)
