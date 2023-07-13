@@ -1,32 +1,31 @@
-.grad-cap-img{
-    width: 30%;
-    float: right;
-    margin-left: 80px;
+.grad-cap-img {
+	width: 30%;
+	float: right;
+	margin-left: 80px;
 }
-.education{
-    font-family: 'Montserrat', sans-serif;
-    width: 50%;
-    margin: 0px auto 100px auto;
+.education {
+	font-family: 'Montserrat', sans-serif;
+	width: 50%;
+	margin: 0px auto 100px auto;
 }
 #education-bullets {
-    text-align: left;
+	text-align: left;
 }
-@media (320px <= width <= 768px){
-
-    .education{
-        font-family: 'Montserrat', sans-serif;
-        display: flex;
-        flex-flow: column wrap;
-        align-content: center;
-        width: 70%;
-        margin: 0px auto 100px auto;
-    }    
-    .grad-cap-img{
-        width: 30vw;
-        float: none;
-        margin: 50px auto 50px auto;
-    }
-    #education-bullets {
-        text-align: left;
-    }
+@media (320px <= width <= 768px) {
+	.education {
+		font-family: 'Montserrat', sans-serif;
+		display: flex;
+		flex-flow: column wrap;
+		align-content: center;
+		width: 70%;
+		margin: 0px auto 100px auto;
+	}
+	.grad-cap-img {
+		width: 30vw;
+		float: none;
+		margin: 50px auto 50px auto;
+	}
+	#education-bullets {
+		text-align: left;
+	}
 }

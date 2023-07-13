@@ -1,107 +1,104 @@
 body {
-    padding: 0;
-    margin: 0;
-    text-align: center;
-    min-height: 100%;
+	padding: 0;
+	margin: 0;
+	text-align: center;
+	min-height: 100%;
 }
-footer{
-    bottom: 0;
+footer {
+	bottom: 0;
 }
 .comic-title {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: bold;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
 }
 
-.comic-img{
-    width: 50vw;
-}
-.comic-alt{
-    margin: 4vh auto auto auto;
-    text-align: center;
-}
-h1 {
-    color: #66BFBF;
-    margin: 50px auto 0 auto;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 5.625rem;
-}
-h2{
-    color: #66BFBF;
-    font-family: 'Montserrat', sans-serif; 
-    font-size: 2.5rem;
-    font-weight:100;
-}
-
-h3{
-    color: #11999E;
-    font-family: 'Montserrat', sans-serif;
-}
-hr {
-    border-style: dotted none none;
-    border-top-width: 8px ;
-    border-top-color: rgb(176, 176, 176);
-    width: 5%;
-}
-a{
-    color: #11999E;
-}
-p {
-    margin: 0;
-    font-family: 'Montserrat', sans-serif;
-    line-height: 2;
-}
-
-
-
-
-
-
-.bottom-container {
-    height: 150px;
-    width: 100%;
-    bottom: 0;
-    background-color: #66BFBF;
-    padding-top: 30px;
-}
-
-.footer-link{
-    font-family: 'Montserrat', sans-serif;
-    text-decoration-line: none;
-    font-weight: bold;
-    margin: auto 15px;
-    margin-bottom: 40px;
-    color:#11999E;
+.comic-img {
+	width: 50vw;
 }
 .comic-alt {
-    font-size: 25px;
+	margin: 4vh auto auto auto;
+	text-align: center;
 }
-.comic-date{
-    font-size: large;
-    font-style: normal;
+h1 {
+	color: #66bfbf;
+	margin: 50px auto 0 auto;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 5.625rem;
 }
-.comic-release{
-    font-size: 20px;
-    margin-bottom: 10vh;
+h2 {
+	color: #66bfbf;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 2.5rem;
+	font-weight: 100;
 }
 
-.footer-img{
-    width: 2.5%;    
-    margin: 15px 15px;
+h3 {
+	color: #11999e;
+	font-family: 'Montserrat', sans-serif;
 }
-.copyright{
-    margin-top: 20px;
+hr {
+	border-style: dotted none none;
+	border-top-width: 8px;
+	border-top-color: rgb(176, 176, 176);
+	width: 5%;
 }
-@media (320px <= width <= 768px){
-   .bio-parag, .skills, .projects{
-        width: 50%;
-   }
-   .contact-me{
-    width: 70%;
-    margin: auto auto auto auto;
-    padding-bottom: 50px;
-    }
-    .footer-img{
-        width: 5%;    
-        margin: 15px 15px;
-    }
+a {
+	color: #11999e;
+}
+p {
+	margin: 0;
+	font-family: 'Montserrat', sans-serif;
+	line-height: 2;
+}
+
+.bottom-container {
+	height: 150px;
+	width: 100%;
+	bottom: 0;
+	background-color: #66bfbf;
+	padding-top: 30px;
+}
+
+.footer-link {
+	font-family: 'Montserrat', sans-serif;
+	text-decoration-line: none;
+	font-weight: bold;
+	margin: auto 15px;
+	margin-bottom: 40px;
+	color: #11999e;
+}
+.comic-alt {
+	font-size: 25px;
+}
+.comic-date {
+	font-size: large;
+	font-style: normal;
+}
+.comic-release {
+	font-size: 20px;
+	margin-bottom: 10vh;
+}
+
+.footer-img {
+	width: 2.5%;
+	margin: 15px 15px;
+}
+.copyright {
+	margin-top: 20px;
+}
+@media (320px <= width <= 768px) {
+	.bio-parag,
+	.skills,
+	.projects {
+		width: 50%;
+	}
+	.contact-me {
+		width: 70%;
+		margin: auto auto auto auto;
+		padding-bottom: 50px;
+	}
+	.footer-img {
+		width: 5%;
+		margin: 15px 15px;
+	}
 }
