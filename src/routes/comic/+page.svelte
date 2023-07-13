@@ -24,7 +24,7 @@
 
 	onMount(async () => {
 		try {
-			const response: string = await fetch(apiUrl);
+			const response = await fetch(apiUrl);
 			const data: string = (await response.json()) as string;
 			const comicId: string = data;
 			const comicUrl: string = `https://fwd.innopolis.university/api/comic?id=${comicId.toString()}`;
@@ -48,10 +48,10 @@
 			};
 			comicDate = comicDateObj.toLocaleDateString(undefined, options);
 
-			const moment: Promise<typeof moment> = await import('moment');
+			const moment = await import('moment');
 			const fromNow: string = moment.default(comicDateObj).fromNow();
 			comicFromNow = `Comic released ${fromNow}`;
-		} catch (error: error) {
+		} catch (error) {
 			console.log(error);
 		}
 	});
